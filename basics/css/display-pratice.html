@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display-property</title>
+    <style>
+        .text{
+            color:black;
+            background-color: white;
+            text-align: left;
+            width:600px;
+            height:23px;
+            display: block;
+
+        }
+        .email{
+            display: block;
+
+        }
+        .second{
+            display: flex;
+
+        }
+        p{
+            width:200px;
+            display: inline-block;
+        }
+        .yes{
+            display: inline-block;
+            margin-top:32px;
+            margin-right: 15px;
+            height: 23px;
+            width: 50px;
+
+        
+        }
+        .no{
+            display: inline-block;
+             height: 23px;
+            width: 50px;
+
+        }
+        .google{
+            text-align: center;
+        }
+        .google-image{
+            object-fit: fill;
+            object-position: center;
+            height: 150px;
+            display:block;
+            margin-left: 36%;
+        }
+        .google-search{
+            width:600px;
+            height:35px;
+            border-radius: 23px;
+            margin-left: 30%;
+            text-align: left;
+            padding-left: 30px;
+            box-shadow: 1px 2px 1px 2px grey;
+        
+        }
+        .sign{
+            margin-top: 23px;
+            
+        
+        }
+        .first-name {
+            height:25px
+
+        }
+        .last-name{
+            height: 25px;
+            
+        }
+        .email-sign{
+            height: 25px;
+            display: block;
+            width:325px;
+            text-align: center;
+            margin-top: 6px;
+            
+        }
+        .sign-up{
+            color:white;
+            background-color:blue;
+            width:333px;
+            height:35px;
+            border-radius: 10px;
+             margin-top: 6px;
+
+        
+
+        }
+        .uber{
+            background-color: lightpink;
+            display: block;
+
+        }
+        .pick-location{
+            width:300px;
+            display: block;
+            height: 25px;
+            border-radius: 7px;
+            background-color: rgb(241, 237, 237);
+            color:rgb(52, 50, 50);
+        
+
+        }
+        .destination{
+             width:300px;
+            display: block;
+            height: 25px;
+            border-radius: 7px;
+            background-color: rgb(241, 237, 237);
+            color:rgb(52, 50, 50);
+        
+        }
+        .request{
+            margin-top: 23px;
+            background-color: black;
+            color:white;
+            padding: 10px 15px;
+
+        }
+        .Schedule{
+         margin-top: 23px;
+        padding: 10px 15px;
+        margin-left: 5px;
+
+
+
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="first">
+        <input type="text" class="name" placeholder="Name">
+        <input type="text" class="email" placeholder="Email">
+    </div>
+    <div class="second">
+    
+        <p>Thanks for chatting with our customer support. Would you like to take our quick survey</p>
+    <div class="button">
+        <button class="yes">Yes</button>
+        <button class="no">NO</button>
+    </div>
+    </div>
+    <div class="goolge">
+        <img src="google.webp" alt="" class="google-image">
+        <input type="text" class="google-search" placeholder="Search Google or type a URL">
+    </div>
+    <div class="sign">
+        <input type="text" class="first-name" placeholder="First name">
+        <input type="text" class="last-name" placeholder="Last name">
+        <input type="text" class="email-sign" placeholder="Email">
+        <button class="sign-up">Sign Up</button>
+
+    </div>
+    <div class="uber">
+        <h1>Request a ride now </h1>
+        <input type="text" class="pick-location" placeholder="Enter pickup location">
+        <input type="text" class="destination" placeholder="Enter Destination">
+        <button class="request">Request now</button>
+        <button class="Schedule">Schedule for later</button>
+    </div>
+    
+</body>
+</html>
