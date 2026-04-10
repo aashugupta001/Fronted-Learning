@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Feedback Form</h2>
+
+    <form>
+
+      <label>Name:</label>
+      <input type="text" placeholder="Your name">
+
+      <label>Email:</label>
+      <input type="text" placeholder="Your email">
+
+      <label>Gender:</label>
+      <input type="radio" name="gender"> Male
+      <input type="radio" name="gender"> Female
+
+      <label>Services Used:</label>
+      <input type="checkbox"> Website
+      <input type="checkbox"> App
+
+      <label>Your Feedback:</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Submit</button>
+
+    </form>
+  </div>
+
+</body>
+</html>
