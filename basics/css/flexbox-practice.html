@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set of flexbox</title>
+    <style>
+        .first {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .p1 {
+            background-color: skyblue;
+
+
+        }
+
+        .p2 {
+            background-color: lightpink;
+        }
+
+        .second {
+            border-color: green;
+            border: solid;
+            display: flex;
+            height: 70px;
+
+        }
+
+        .second-div1 {
+            background-color: aqua;
+            width: 200px;
+
+
+        }
+
+        .second-div2 {
+            background-color: lightpink;
+            width: 64px;
+        }
+
+        .third {
+            border: solid;
+            border-width: 3px;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            /* height: 30px; */
+            flex-direction: row;
+            /* justify-content:; */
+
+
+        }
+
+        .third-div1 {
+            background-color: lightblue;
+            width: 100px;
+            height: 40px;
+
+
+        }
+
+        .third-div2 {
+            background-color: lightpink;
+            width: 500px;
+            height: 40px;
+
+
+
+        }
+
+        .third-div3 {
+            background-color: lightblue;
+            width: 200px;
+            height: 40px;
+
+
+        }
+
+        .fourth {
+            border: solid;
+            border-width: 3px;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            /* height: 30px; */
+            flex-direction: row;
+            justify-content: space-between;
+
+
+        }
+
+        .fourth-div1 {
+            background-color: lightblue;
+            /* width:100px; */
+            height: 40px;
+
+
+        }
+
+        .fourth-div2 {
+            background-color: lightpink;
+            /* width:500px; */
+            height: 40px;
+
+
+
+        }
+
+        .fourth-div3 {
+            background-color: lightblue;
+            /* width:200px; */
+            height: 40px;
+
+
+        }
+
+        .fourth-div4 {
+            background-color: lightpink;
+            /* width:200px; */
+            height: 40px;
+
+
+        }
+
+        .fifth {
+            border: solid;
+            border-width: 3px;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            height: 30px;
+            flex-direction: row;
+            justify-content: space-between;
+
+
+        }
+
+        .fifth-div1 {
+            background-color: lightblue;
+            /* width:100px; */
+            /* height: 40px; */
+
+
+        }
+
+        .fifth-div2 {
+            background-color: lightpink;
+            /* width:500px; */
+            /* height: 40px; */
+
+
+
+        }
+
+        .fifth-div3 {
+            background-color: lightblue;
+            /* width:200px; */
+            /* height: 40px; */
+
+
+        }
+
+        .fifth-div4 {
+            background-color: lightpink;
+            /* width:200px; */
+            /* height: 40px; */
+
+
+        }
+
+        .design {
+            border: solid;
+            margin-top: 30px;
+            width: 300px;
+            height: 150px;
+            border-radius: 23px;
+            /* display: flex; */
+            /* flex-direction: column; */
+            box-shadow: -2px 2px 17px 10px pink;
+        }
+
+        .home {
+            display: flex;
+            justify-content: space-between;
+            margin: 18px;
+        }
+
+        .home1 {
+            font-weight: bold;
+        }
+
+        .home2 {
+            background-color: rgb(97, 186, 216);
+            border-radius: 50%;
+            color: white;
+            padding: 4px 9px 5px 8px;
+        }
+
+        .message {
+            display: flex;
+            justify-content: space-between;
+            margin: 18px;
+        }
+
+        .message1 {
+            font-weight: bold;
+        }
+
+        .message2 {
+            background-color: rgb(97, 186, 216);
+            border-radius: 50%;
+            color: white;
+            padding: 4px 9px 5px 8px;
+        }
+
+        .notification {
+            display: flex;
+            justify-content: space-between;
+            margin: 18px;
+        }
+
+        .notification1 {
+            font-weight: bold;
+        }
+
+        .notification2 {
+            background-color: rgb(97, 186, 216);
+            border-radius: 50%;
+            color: white;
+            padding: 4px 9px 5px 8px;
+        }
+
+        .search-bar {
+            border: solid;
+            border-width: 3px;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            height: 30px;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: darkviolet;
+            color: white;
+
+        }
+
+        .Home {
+            margin-left: 10px;
+            width: 70px;
+
+
+        }
+
+        .search {
+
+            border-radius: 30px;
+            padding-left: 200px;
+            padding-right: 200px;
+            align-items: left;
+        }
+
+        .download {
+            background-color: darkviolet;
+            color: white;
+            border: solid white;
+
+            border-radius: 5px;
+            ;
+
+        }
+
+        .follow,.follow2,.follow3 {
+            display: flex;
+            /* flex-direction: column; */
+            margin-top: 40px;
+            border: solid blue;
+            width:500px;
+            justify-content: space-between;
+        }
+
+        .image ,.image2,.image3{
+            background-color: pink;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-top: 30px;
+            margin-right: 20px;
+        }
+
+        .header.hearder2,.header3 {
+            margin-bottom: 2px;
+
+        }
+
+        .para ,.para2,.para3{
+            margin-top: 2px;
+            width:10px;
+
+
+        }
+        .follow-btn,.follow-btn2, .follow-btn3{
+            margin-top: 30px;
+            margin-left: 30px;
+            background-color: lightblue;
+            color: white;
+            border:solid white;
+            padding:10px 20px 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">
+
+        <p class="p1">200px</p>
+
+
+        <p class="p2">73px</p>
+    </div>
+    <div class="second">
+        <div class="second-div1">200px</div>
+        <div class="second-div2">75px</div>
+    </div>
+    <div class="third">
+        <div class="third-div1">item 1</div>
+        <div class="third-div2">item 2</div>
+        <div class="third-div3">item 3</div>
+    </div>
+
+    <div class="fourth">
+        <div class="fourth-div1">item 1</div>
+        <div class="fourth-div2">item 2</div>
+        <div class="fourth-div3">item 3</div>
+        <div class="fourth-div4"> item 4</div>
+    </div>
+    <div class="fifth">
+        <div class="fifth-div1">item 1</div>
+        <div class="fifth-div2">item 2</div>
+        <div class="fifth-div3">item 3</div>
+        <div class="fifth-div4"> item 4</div>
+    </div>
+    <div class="design">
+        <div class="home">
+            <div class="home1">home</div>
+            <div class="home2"> 13</div>
+
+        </div>
+        <div class="message">
+            <div class="message1">Message</div>
+            <div class="message2">21</div>
+
+        </div>
+        <div class="notification">
+            <div class="notification1">Notification</div>
+            <div class="notification2">222</div>
+
+        </div>
+    </div>
+    <div class="search-bar">
+        <div class="Home">Home</div>
+        <div><input type="text" placeholder="Search" class="search"> </div>
+        <div>
+            <button class="download">Download</button>
+        </div>
+    </div>
+    <div class="follow">
+        <div>
+            <img src="shiurh.png" alt="missing" class="image">
+        </div>
+        <div>
+            <h3 class="header">Elephant</h3>
+            <p class="para">this is very popular</p>
+        </div>
+        <div> <button class="follow-btn">Follow</button>
+        </div>
+
+
+
+    </div>
+    <div class="follow2">
+        <div>
+            <img src="shiurh.png" alt="missing" class="image2">
+        </div>
+        <div>
+            <h3 class="header2">Elephant</h3>
+            <p class="para2">this is very popular</p>
+        </div>
+        <div> <button class="follow-btn2">Follow</button>
+        </div>
+
+
+
+    </div>
+
+    <div class="follow3">
+        <div>
+            <img src="shiurh.png" alt="missing" class="image3">
+        </div>
+        <div>
+            <h3 class="header3">Elephant</h3>
+            <p class="para3">this is very popular</p>
+        </div>
+        <div> <button class="follow-btn3">Follow</button>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
