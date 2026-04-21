@@ -1,0 +1,82 @@
+   body{
+    flex-wrap: wrap;
+   }
+   .navbar{
+        display: flex;
+        flex-direction: row;
+         border-radius: 2px;
+        box-shadow: 1px 1px 10px 1px;
+        border: 2px solid rgb(197, 195, 195);
+
+
+    }
+    .navbar-right {
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        background-color: white;
+        align-items: center;
+        
+       
+    }
+    .navbar-left{
+        text-align: left;
+
+        margin-right: 20px;
+        justify-content: left;
+        align-items: left;
+        margin-left: 10px;
+
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color:white;
+        height: 100vh;
+    }
+    .hero-section-left{
+        width:50%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+        font-size: 24px;
+    }
+    .hero-section-right{
+        object-fit: cover;
+        
+    }
+    .my-image{
+        /* margin-right: 0px; */
+    }
+    .about-me{
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(114, 111, 111);
+        color:white;
+        height:730px;
+    }
+    .about-me-left{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        font-size: 22px;
+        padding:3px 67px 48px 89px;
+
+    }
+    .card{
+        box-sizing: 2px 20px 2px 20px ;
+    }
+    .about-me-right{
+        object-fit: cover;
+
+    }
+    .skill{
+        background-color: rgb(195, 195, 195);
+        color:white;
+        height: 100vh;
+
+    }
