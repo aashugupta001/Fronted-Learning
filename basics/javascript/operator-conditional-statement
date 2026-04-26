@@ -1,0 +1,131 @@
+// comment in javascript
+// operators in javascript
+// 1. Arithmetic operators (+ - * / % ++ --)
+// 2. Assignment operators (= += -= *= /= %=)
+// 3. Comparison operators (== != === !== > < >= <=)
+// 4. Logical operators (&& || !)
+// 5. Bitwise operators (& | ^ ~ << >> >>>)
+// 6. Ternary operator (condition ? value1 : value2)
+// arithmetic operators
+let a=5;
+let b=8;
+console.log("a",a);
+console.log("b",b);
+console.log("a+b=" + (a+b)); // 6
+console.log("a-b=" + (a-b)); // -2  
+console.log("a*b=" + (a*b)); // 8   
+console.log("a/b=" + (a/b)); // 0.5
+// // modulus operator
+console.log("a%b=" + (a%b)); // 2
+// // exponentiation operator
+console.log("a**b=" + (a**b)); // 256
+// increment operator unitary operator
+let a=10;
+let b=20;
+console.log("a",a,"b",b);
+a=a+1; //incrementing by 1 to 11 
+
+console.log(a);
+a++;
+console.log(a);
+b=b-1; // decrementing by 1 to 19
+console.log(b);
+b--;
+console.log(b);
+
+// preincrement and post increment
+let c=5;
+console.log("c",c);
+console.log(c++);
+console.log(++c);
+c=12;
+// console.log("c--",c--);
+console.log("--c",--c);
+// assignment operators (= += -= *= /= %=)
+let d=10;
+let e=20;
+// d+=4;//d=d+4
+console.log("d",d);
+d-=2;//d=d-2
+console.log(d);
+d*=3;//d=d*3
+console.log(d);
+d/=2;//d=d/2
+console.log(d);
+d%=3;// d=d%3
+console.log(d);
+d**=2;//d=d**2 d=10*10=100
+console.log(d);
+
+
+// // comparison operators (== != === !== > < >= <=)
+let f=10;
+let g=12;
+console.log("f",f,"g",g);
+console.log("equal to ",f==g); //if true then return true and it false return false value
+// console.log("not equal to ",f!=g); //if the condition is true it return fale and when false it return true value 
+let h=2;
+let i="2";
+console.log("h",h,"i",i);
+console.log("equal to ",h==i); // it return true because it only compare value not data type
+// console.log("strict equal to ",h===i); //it return false because it compare value and data type both
+// console.log("not strict equal to ",h!==i); // it return true because it compare value and data type both
+let m=10;
+let n=10;
+// console.log("10>12 ",m>n);
+// console.log("10<122 ",m<n);
+console.log("10>=10 ",m>=n); 
+console.log("10<=10 ",m<=n);
+//logical operators (&& || !)
+//1.&& when one condition is false and other become true it retun false value
+let a=100;
+let b=32;
+let cond1 = a>b ; //true
+let cond2= a === 61; //true
+console.log("cond1 && cond2",cond1 && cond2);
+// //2. || when the both condition is false it return false and if one condition is true other is false it will return true and if the both condition is true then it will also retunr true value
+console.log("cond1 || cond2", cond1||cond2);
+//  //3. ! it is unary operator it return true if the condition is false and it return false if the condition is true 
+ console.log("cond1 !",!(cond1)); 
+conditional statement
+let age="34";
+if (age>=18){
+    console.log("i am ready to vote");
+}
+else{
+    console.log("not ready for vote");
+}
+//we can use different if statement for different condition but it is not a good practice because it will take more time to excute the code and it will also make the code more complex and difficult to read and maintain
+let mode="light";
+let color;
+if(mode==="dark"){
+    color="black";
+}
+if(mode==="light"){
+    color="white";
+}
+console.log(color);
+//if-else statement  in this conditional operator we can use if-else statement to check the condition and execute the code in this condition if the if condition is not satisfy it will return else bloack of code but when the if condition become true then it will execute the if block of code and it will not excute else block of code
+
+let mode="dark";
+if (mode==="dark"){
+    console.log("dark mode is on");
+
+}
+else{
+    console.log("invalid mode selected");
+}
+let number=133;
+if (number%2===0){
+    console.log(number,"number is even");
+}
+else{
+    console.log(number,"number is odd");
+}
+//syntax -> rules
+//else-if statement
+
+
+
+
+
