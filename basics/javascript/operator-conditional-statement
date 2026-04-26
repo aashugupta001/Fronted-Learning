@@ -124,6 +124,106 @@ else{
 }
 //syntax -> rules
 //else-if statement
+let mode="dark";
+let color;
+if(mode==="dark"){
+    color="black";
+}
+else if(mode==="blue"){
+    color="blue";
+}
+else if(mode==="pink")
+{
+    color="pink";
+}
+else{
+    color="white";
+}
+console.log(color);
+if(mode==="dark"){
+    console.log(mode);
+}
+//ternary operator 
+//? : a?b:c it is a  short hand trick to write if-else statement in a single line of code it is also called conditional operator in javascript it is a ternary operaror because it takes three operand first is condition and second is value if the condition is true and third is value if the condition is false [in other mean if the given conditional statement is true it will return first value and if the givern conditonal statement is false it will return second value]
+let age=18;
+let result=age>=18? "adult":"not adult"; //simpler 
+console.log(result);
+age>=18?console.log("adult"):console.log("not adult");
+
+//Switch statement
+const fruit="orange";
+switch (fruit){
+    case "mango":
+        console.log("it is not match with papaya");
+        break;
+    case "grapes":
+        console.log("it is not match with papaya and mango both");
+        break;
+    case "orange":
+        console.log("this is not match with all the given fruit anymore but with orange");
+        break;
+    case "papaya":
+        console.log("it is perfectly match with papaya so we can execute it noww");
+        break;
+    default:
+        console.log("sorry we never found papaya anymore");
+}
+//Practice set for operator and conditional statement
+let num=prompt("enter a number");
+// // console.log(num);
+if(num%5===0){
+    console.log(num,"this is a multiple of 5 ");
+}
+else{
+    console.log(num,"it is not multiple of 5 ");
+}
+//Q.2
+let marks=prompt("enter a marks of students for Grades");
+if(marks>=80 && marks<=100){
+    console.log("Grade A");
+}
+else if(marks>=70 && marks<=89){
+    console.log("Grade b");
+    
+}
+else if(marks>=60 && marks<=69){
+    console.log("Grade C");
+    
+}
+else if(marks>=50 && marks<=59){
+    console.log("Grade D");
+    
+}
+else if(marks<=49){
+    console.log("fail");
+}
+else{
+    console.log("not a student");
+
+}
+let marks=prompt("enter a marks");
+let grade;
+if(marks>=80 && marks<=100){
+    grade="A";
+    
+}
+else if(marks>=70 && marks<=89){
+     grade="B";
+}
+else if(marks>=60 && marks<=69){
+     grade="C";
+    
+}
+else if(marks>=50 && marks<=59){
+    grade="D";
+    
+}
+else if(marks>=0 && marks<=49){
+    grade="Fail"
+}
+console.log(grade);
+
+
 
 
 
