@@ -1,5 +1,6 @@
 //loops in javascript 
 //we use loop to execute block of code repeteadly 
+//it is a one of the important concept of the javascript we used this method in performing different operation
 // we used different type of loops in javacsript like for loop, while loop , do-while loop
 // //for loop(initization;conditon/increment or decrement )
 //this loop is execute when the condition become true at that time it only execute otherwise when condition become false it will never execute block of code anymore and in this we can give all instruction in a single line 
