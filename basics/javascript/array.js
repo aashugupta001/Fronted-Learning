@@ -1,5 +1,4 @@
 //array is used to store collection of data
-//array
 //array is a object it is non- primitive data type
 //collection of items  for this we used [] for this  it is linear collection
 //array is mutable it means it will change after creating but the string are immutable it will not chnage after assigining value for changing we want to create new string 
@@ -20,7 +19,6 @@ console.log(name[3]);
 name[2]="aashu";
 console.log(name);
 //looping over an array
-
 //iterable means in which we can used loops for example like strings, object ,array.
 //for loop
 let cartoon=["doremon","sinchen","motu patlu","micky mouse","nobita","oggy and crocroach"];
@@ -72,7 +70,6 @@ for(let i=0;i<number.length;i++){
         sum+=number[i];
         console.log(number[i]);
     }
-
 }
 console.log(sum);
 //method in array 
@@ -130,7 +127,7 @@ console.log(number);
 // replace value from array
 number.splice(0,1,101);
 console.log(number);
-number.splice(4); //  using in this way it will understnad it is a starting index for deleteing value from the array
+number.splice(4);//  using in this way it will understnad it is a starting index for deleteing value from the array
 console.log(number);
 // if we never give any value in() then no change we can see in our array list 
 number.splice();
@@ -143,5 +140,6 @@ company.shift();
 console.log(company);
 company.splice(1,1,"old");
 console.log(company);
-company.push("amazon");  //unshitf for adding in starting 
+company.push("amazon"); 
+//unshitf for adding in starting 
 console.log(company);
