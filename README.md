@@ -3,7 +3,9 @@
 ## Skills
 - HTML
 - CSS
+- Boostrap
 - JavaScript (learning)
+
 
 
 ## Goal
