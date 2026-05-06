@@ -56,9 +56,7 @@ d%=3;// d=d%3
 console.log(d);
 d**=2;//d=d**2 d=10*10=100
 console.log(d);
-
-
-// // comparison operators (== != === !== > < >= <=)
+// comparison operators (== != === !== > < >= <=)
 let f=10;
 let g=12;
 console.log("f",f,"g",g);
@@ -83,9 +81,9 @@ let b=32;
 let cond1 = a>b ; //true
 let cond2= a === 61; //true
 console.log("cond1 && cond2",cond1 && cond2);
-// //2. || when the both condition is false it return false and if one condition is true other is false it will return true and if the both condition is true then it will also retunr true value
+ //2. || when the both condition is false it return false and if one condition is true other is false it will return true and if the both condition is true then it will also retunr true value
 console.log("cond1 || cond2", cond1||cond2);
-//  //3. ! it is unary operator it return true if the condition is false and it return false if the condition is true 
+ //3. ! it is unary operator it return true if the condition is false and it return false if the condition is true 
  console.log("cond1 !",!(cond1)); 
 conditional statement
 let age="34";
@@ -110,7 +108,6 @@ console.log(color);
 let mode="dark";
 if (mode==="dark"){
     console.log("dark mode is on");
-
 }
 else{
     console.log("invalid mode selected");
@@ -222,10 +219,5 @@ else if(marks>=0 && marks<=49){
     grade="Fail"
 }
 console.log(grade);
-
-
-
-
-
 
 
