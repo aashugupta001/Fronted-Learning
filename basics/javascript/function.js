@@ -1,4 +1,3 @@
-//function 
 //functions
 //block of code that perform specific task , can be invoked whnever needed
 // toUppercase()  this all are function in javsacript we used this to persrom this specific task
@@ -9,7 +8,7 @@
 //function call for performing a specific task is that
 //we used function keyword functionName()
 // {
-//     //
+//     
 // }
 // function myfunction(){
 //     console.log("welcome to javascript function");
@@ -88,9 +87,7 @@
 //             char==="o"||
 //             char==="u"){
 //             count++;
-
 //         }
-        
 //     }
 //     return count;
 // }
@@ -103,9 +100,7 @@ const countvow=(str)=>{
             char==="o"||
             char==="u"){
             count++;
-
         }
-        
     }
     return count;
 }
