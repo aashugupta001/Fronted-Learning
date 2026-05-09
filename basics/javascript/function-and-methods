@@ -104,3 +104,4 @@ const countvow=(str)=>{
     }
     return count;
 }
+//methods in javascript
