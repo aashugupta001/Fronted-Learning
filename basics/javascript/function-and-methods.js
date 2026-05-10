@@ -104,4 +104,13 @@ const countvow=(str)=>{
     }
     return count;
 }
-//methods in javascript
+//forEach loops in array
+//it is only used with array 
+//arr.foreach(callBackFunction)
+//callbackFunction:here,it is a function to excute for each element in the array{a callback is a function passed as an agrument to another function}
+??syntax 
+//arr.forEach(val)=>{
+// console.log(val);
+// })
+
+
