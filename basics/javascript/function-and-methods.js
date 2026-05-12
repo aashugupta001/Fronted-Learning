@@ -104,13 +104,44 @@ const countvow=(str)=>{
     }
     return count;
 }
-//forEach loops in array
-//it is only used with array 
-//arr.foreach(callBackFunction)
-//callbackFunction:here,it is a function to excute for each element in the array{a callback is a function passed as an agrument to another function}
-??syntax 
-//arr.forEach(val)=>{
-// console.log(val);
-// })
+//foreach loop
+// Array.foreach(callbackfunction)
+// callbackfunction:Headers,it is a function toexcute for each element in the array 
+//a callback is a function passed as an argument to another function
+// function mystring(){
+//     console.log("data");
+// }
+// function newstring(mystring){
+//     return mystring;
+// }
+// let arr=[1,2,3,4];
+// arr.forEach(function printval(val){ //vzlue at each idx
+//     console.log(val);
 
+
+// })
+// let arr=["pune","delhi","surat"];
+// arr.forEach((val,idx,arr)=>{ //vzlue at each idx
+//     console.log(val);
+//     console.log(val.toUpperCase(),idx,arr);
+
+// });
+//higher order function or higher order method (forEach function is this type of fucntion)
+//a type of function whixh return other function as thier output  or take either  function as an parameter [in any function in which we see callback function this become a higher order function or method ]
+// let arr=[1,2,3,4,5];
+// arr.forEach((val,idx)=>{
+//     console.log("square of each array",val,"=",val*val);
+// })
+// let arr=[1,2,3,4,5];
+// let square=(val)=>{
+//     console.log(val*val);
+// }
+// arr.forEach(square);
+//other important method of array
+//map 
+//create a new array with the result of some operation . the value its callback return are used to form new array 
+//synatx=== arr.map(callbackFnx(value,index,array))
+//let newArr ==arr.map((val)=>{
+//    return val*2;
+// }) 
 
