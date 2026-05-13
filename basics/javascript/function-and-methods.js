@@ -141,4 +141,66 @@ arr.forEach(square);
 // let newArr ==arr.map((val)=>{
 //    return val*2;
 // }) 
+ let arr=[1,2,4,5,6];
+ let newarr=arr.map((val)=>{
+    // console.log(val);
+    // return val*2;
+    return val*val;
+ })
+
+console.log(newarr);
+//Filter method
+//create a new array of elements that give true for a condition/filter
+//ex. all even number
+let Newarr=arr.filter((val)=>{
+    return val%2===0;
+})
+let Arr=[1,2,35,7,90,67,45,34,22,36];
+let newarr=Arr.filter((val)=>{
+    // return val%2!=0; //odd
+    return val%2===0; //even
+})
+console.log(newarr);
+console.log(Arr);//not change in original array 
+
+//reduce method
+//perform some operation & reduce the array to a single value . it return that single value
+let arr=[1,2,3,4,90,89898];
+let output=arr.reduce((result,curr)=>{
+    return result > curr ? result :curr;
+});
+console.log(output);
+//practice set 1
+let marks=[75,67,89,78,56,45,78,67,9,90,89,98,88,99,95,93];
+let newarr=marks.filter((val)=>{
+    return val>=90;
+})
+console.log(newarr);
+//practice set 2
+let num=prompt("enter a n number");
+let arr=[];
+arr=num;
+console.log(arr);
+let n=prompt("enter a number:");
+let arr=[];
+for(let i=1;i<=n;i++){
+    arr[i-1]=i;}
+
+    // console.log(arr);
+let sum=arr.reduce((val,ret)=>{
+        return val+ret;
+    })
+  
+console.log("sum",sum);
+
+let n=prompt("enter a number:");
+let arr=[];
+for(let i=1;i<=n;i++){
+    arr[i-1]=i
+}
+console.log(arr);
+let sum=arr.reduce((val,curr)=>{
+        return val*curr;
+})
+console.log(sum)
 
