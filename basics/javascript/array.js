@@ -25,7 +25,7 @@ let cartoon=["doremon","sinchen","motu patlu","micky mouse","nobita","oggy and c
 for(let data = 0;data<cartoon.length;data++){
     console.log(cartoon[data]);
 }
-//for of loop
+//for of loop this loop is mainly used for array in jaavscript 
 let data=["aashu","aashutosh","anjali","gupta","tiwari","sharma"];
 for (let items of data){
     console.log(items);
@@ -74,7 +74,7 @@ for(let i=0;i<number.length;i++){
 console.log(sum);
 //method in array 
 //array in methods
-//push ():add to end
+//push ():add to end in any array
 //pop():delete from end 7 return
 //toString():cpnvert array to string
  let veggies=["potato","tomato","onion","chilli","cabbage","cauliflower"];
