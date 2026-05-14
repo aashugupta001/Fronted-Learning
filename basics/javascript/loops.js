@@ -4,6 +4,7 @@
 // we used different type of loops in javacsript like for loop, while loop , do-while loop
 // //for loop(initization;conditon/increment or decrement )
 //this loop is execute when the condition become true at that time it only execute otherwise when condition become false it will never execute block of code anymore and in this we can give all instruction in a single line 
+//we used for loop when we know from were to loop start how to increamnet or decrement or when it stops  we used this loop like sum, multiplication ..
 for(let i=1;i<=10;i++){
     console.log("apna collge");
 }console.log("i am the future software engineer");
@@ -41,6 +42,7 @@ while(i<=5){
 }
 //while loop
 //we can check condition first so that's why if the condition become not satisfy then too it return or execute block of code at least one time
+//while loop is used when the numberof excution is not fixed (when we don't be know how many time loops will excute then we used the while loop) for example password ,username 
 let i=20;
 do{
     console.log("apna college");
@@ -97,6 +99,4 @@ let usernum=prompt("guess the game number");
 // console.log(usernum);
 while(usernum!=gamenumber){
    usernum= prompt("you entered wrong number");
-
-
 }console.log("congratualation you enter the correct number");
