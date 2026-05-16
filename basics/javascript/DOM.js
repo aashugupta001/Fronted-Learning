@@ -20,3 +20,5 @@
 console.dir(document.body);
 console.log(document.body);
 
+//it is a one of the important consept of the document object model
+//we used this to perform action a our html page (web  pages)
