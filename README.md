@@ -5,6 +5,7 @@
 - CSS
 - Boostrap
 - JavaScript (learning)
+- Next (node.js)
 
 
 
