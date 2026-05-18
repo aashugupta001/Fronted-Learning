@@ -2,49 +2,66 @@
 //attributes
 //getAttribute(attr)//to get theattribute value {which means we used this attributes for get hte value} by using this we can check our attributes name of particular element or tag name 
 //synatx getAttribute(Attr)
-// let div=document.querySelector("div");
-// console.log(div);
-// let id=div.getAttribute("id");
-// console.log(id);
-// let name=div.getAttribute("name");
-// console.log(name);
-// let para=document.querySelector("p");
-// console.log(para.getAttribute("class"));
+let div=document.querySelector("div");
+console.log(div);
+let id=div.getAttribute("id");
+console.log(id);
+let name=div.getAttribute("name");
+console.log(name);
+let para=document.querySelector("p");
+console.log(para.getAttribute("class"));
 //setAttribute(Attr,value)//to set the attributes value 
 // by using this attributes method we can set value of our tags or element 
 //it is used for set the value of attributes whihc means by this we can give the id name to the tag name or class name to the tag name
-// let dic=document.querySelector("div");
-// console.log(dic.getAttribute("id"));
-// console.log(dic.setAttribute("id","aashu"));
+let dic=document.querySelector("div");
+console.log(dic.getAttribute("id"));
+console.log(dic.setAttribute("id","aashu"));
 //node.style by using this we can add or update our styling proprties without changing in css we directly change the color , font , size, visibility etc properties 
-// let div=document.querySelector("div");
-// console.log(div);
-// div.style.color="pink";
-// div.style.backgroundColor="purple";
-// div.style.fontSize="20px";
-// div.innerHTML="hello";
-// div.style.visibility="hidden";
+let div=document.querySelector("div");
+console.log(div);
+div.style.color="pink";
+div.style.backgroundColor="purple";
+div.style.fontSize="20px";
+div.innerHTML="hello";
+div.style.visibility="hidden";
 //Insert Elements   let el=document.createElement("div");
-//node.append (el); //adds at the end of the node(inside);
+// node.append (el); //adds at the end of the node(inside);
 
-// let btn=document.createElement("button");
-// btn.innerText="click me";
-// console.log(btn);
-//node.append(element)
-// let div=document.querySelector("div");
-// div.append(btn); 
-// //appened method is used to add new node or element in a particular div at ending points 
+let btn=document.createElement("button");
+btn.innerText="click me";
+console.log(btn);
+node.append(element)
+let div=document.querySelector("div");
+div.append(btn); 
+//appened method is used to add new node or element in a particular div at ending points 
 //div.prepand we used this for printing this at the starting of the any div  point then we used this fucntion or method
-// div.prepend(btn);
+div.prepend(btn);
 //node.before we used this method or function for adding the new value before other div 
-// div.before(btn); 
+div.before(btn); 
 //we used this function for adding new value after the div
-// div.after(btn);
-// let newhead=document.createElement("h1");
-// newhead.innerHTML="<i>hi , i am new!</i>";
-// document.querySelector("body").prepend(newhead);
-// let para=document.querySelector("p");
-// console.log(para.remove());
+div.after(btn);
+let newhead=document.createElement("h1");
+newhead.innerHTML="<i>hi , i am new!</i>";
+document.querySelector("body").prepend(newhead);
+let para=document.querySelector("p");
+console.log(para.remove());
 //appendchild()
 //removechild()
+//practice question 1
+let btn=document.createElement("button");
+btn.innerText="click me";
+btn.style.background="red";
+btn.style.color="white";
+document.querySelector("body").prepend(btn);
 
+// practice question 2
+let para=document.querySelector("p");
+console.log(para);
+console.log(para.classList);
+console.log(para.classList.add("para2"));
+console.log(para.getAttribute("class"));
+console.log(para.setAttribute("class","para2"));
+// its overwrite the element 
+console.log(para.classList);
+console.log(para.classList.add("para2")); // we add new element
+console.log(para.classList.remove("para2"));// we remove new element
