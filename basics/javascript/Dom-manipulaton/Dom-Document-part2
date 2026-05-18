@@ -1,0 +1,19 @@
+//DOM MAnipulation
+//attributes
+//getAttribute(attr)//to get theattribute value {which means we used this attributes for get hte value} by using this we can check our attributes name of particular element or tag name 
+//synatx getAttribute(Attr)
+// let div=document.querySelector("div");
+// console.log(div);
+// let id=div.getAttribute("id");
+// console.log(id);
+// let name=div.getAttribute("name");
+// console.log(name);
+// let para=document.querySelector("p");
+// console.log(para.getAttribute("class"));
+//setAttribute(Attr,value)//to set the attributes value 
+// by using this attributes method we can set value of our tags or element 
+//it is used for set the value of attributes whihc means by this we can give the id name to the tag name or class name to the tag name
+let dic=document.querySelector("div");
+console.log(dic.getAttribute("id"));
+console.log(dic.setAttribute("id","aashu"));
+
