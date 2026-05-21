@@ -53,6 +53,47 @@
 //node.removeEventListner(event,callback)
 //note: the callback reference should be same to remove
 
+/by using this we can add multiple event handler property  to the specific button it is the one of the best benefit of this event listner 
+// let btn1=document.querySelector('#btn1');
+// btn1.addEventListener("click",()=>{
+//     console.log(" button 1**handler one** done ");
+// });
+// btn1.addEventListener("click",()=>{
+//     console.log(" button 2 done handler two** ");
+
+// });
+
+// btn1.addEventListener("click",()=>{
+//     console.log(" button 2 done handler three** ");
+
+// });
+// const handler3=()=>{
+//     console.log(" button 2 done handler four** ");
+// };
+// btn1.addEventListener("click",handler3);
+// btn1.removeEventListener("click",handler3);
+//we can not remove event handler if we use anonymous function in event listner because we can not access that function to remove it 
+//toggle event listner
+//it is used to toggle the event handler on and off 
+//node.toggleEventListner(event,callback)
+//if the event handler is not present then it will add the event handler and if it is present then it will remove the event handler
+//practice set of toggle button
+let mode=document.querySelector('#mode');
+let mode1='light';
+// let mode2='dark';
+mode.addEventListener("click",()=>{
+    if(mode1==='light'){
+        mode1='dark';
+    }else{
+        mode1='light';
+    }
+});
+
+
+
+
+
+
 
 
 
