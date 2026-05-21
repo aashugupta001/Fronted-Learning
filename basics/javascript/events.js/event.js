@@ -78,15 +78,19 @@
 //node.toggleEventListner(event,callback)
 //if the event handler is not present then it will add the event handler and if it is present then it will remove the event handler
 //practice set of toggle button
-let mode=document.querySelector('#mode');
-let mode1='light';
+
+let mode=document.querySelector('#btn2');
+let currmode="light";
 // let mode2='dark';
 mode.addEventListener("click",()=>{
-    if(mode1==='light'){
-        mode1='dark';
+    if(currmode==="light"){
+        currmode="dark";
+        document.querySelector("body").style.backgroundColor="red";
     }else{
-        mode1='light';
+        currmode="light";
+        document.querySelector("body").style.backgroundColor="pink";    
     }
+    console.log(currmode);
 });
 
 
