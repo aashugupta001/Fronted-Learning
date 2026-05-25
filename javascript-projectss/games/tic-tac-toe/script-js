@@ -1,0 +1,38 @@
+//tic tac toe
+let boxes = document.querySelectorAll('.box');
+let resetBtn = document.querySelector('#reset');
+let turnO = true;
+let gameOver = false;
+const winPatterns = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+boxes.forEach((box,index)=>{
+    box.addEventListener('click',()=>{
+        if (box.innerText == '' && !gameOver) {
+            const currentSymbol = turnO ? 'X' : 'O';
+            box.innerText = currentSymbol;
+
+            let winner = false;
+            for (const [a,b,c] of winPatterns) {
+                if (boxes[a].innerText && boxes[a].innerText === boxes[b].innerText && boxes[a].innerText === boxes[c].innerText) {
+                    winner = true;
+                    break;
+                }
+            }
+
+            if (winner) {
+                gameOver = true;
+                setTimeout(() => {
+                    alert(`${currentSymbol} wins!`);
+                }, 0);
+            } else {
+                turnO = !turnO;
+            }
+        }
+    });
+});
+resetBtn.addEventListener('click',()=>{
+    boxes.forEach((box)=>{
+        box.innerText = '';
+    });
+    turnO = true;
+    gameOver = false;
+});
